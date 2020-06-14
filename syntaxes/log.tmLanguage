@@ -17,6 +17,24 @@
                 <key>name</key>
                 <string>invalid</string>
             </dict>
+	    <dict>
+		<key>match</key>
+		<string>\b(?i:(Down|Error|Failure|Fail|Fatal|false))(\:|\b)</string>
+		<key>name</key>
+		<string>invalid.illegal</string>
+	    </dict>
+	    <dict>
+		<key>match</key>
+		<string>\b(?i:(hint|info|information|true|log))(\:|\b)</string>
+		<key>name</key>
+		<string>keyword</string>
+	    </dict>
+	    <dict>
+		<key>match</key>
+		<string>\b(?i:(warning|warn|test|debug|null|undefined|NaN))(\:|\b)</string>
+		<key>name</key>
+		<string>invalid.deprecated</string>
+	    </dict>
         </array>
     </dict>
 </plist>
