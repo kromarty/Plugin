@@ -1,10 +1,10 @@
 # Plugin
 
 master:
-[![Build Status](https://travis-ci.com/kromarty/Plugin.svg?branch=master)](https://travis-ci.com/kromarty/Plugin)
+[![Build Status](https://travis-ci.org/kromarty/Plugin.svg?branch=master)](https://travis-ci.com/kromarty/Plugin)
 
 dev:
-[![Build Status](https://travis-ci.com/kromarty/Plugin.svg?branch=develop)](https://travis-ci.com/kromarty/Plugin)
+[![Build Status](https://travis-ci.org/kromarty/Plugin.svg?branch=develop)](https://travis-ci.com/kromarty/Plugin)
 
 ## Project Description
 
