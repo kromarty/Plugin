@@ -7,4 +7,4 @@ os:
 branches:
   only:
     - master
-    - dev
+    - develop
