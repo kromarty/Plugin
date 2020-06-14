@@ -35,6 +35,30 @@
 		<key>name</key>
 		<string>invalid.deprecated</string>
 	    </dict>
+	    <dict>
+		<key>match</key>
+		<string>\b\d+\.?\d*?\b</string>
+		<key>name</key>
+		<string>constant.numeric</string>
+	    </dict>
+	    <dict>
+		<key>match</key>
+		<string>\b(?i:(0?x)?[0-9a-f][0-9a-f]+)\b</string>
+		<key>name</key>
+		<string>constant.numeric</string>
+	    </dict>
+	    <dict>
+		<key>match</key>
+		<string>"(.*?)"</string>
+		<key>name</key>
+		<string>string.quoted</string>
+	    </dict>
+	    <dict>
+		<key>match</key>
+		<string>'(.*?)'</string>
+		<key>name</key>
+		<string>string.quoted</string>
+	     </dict>
         </array>
     </dict>
 </plist>
